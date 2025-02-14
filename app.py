@@ -3,7 +3,7 @@ from langchain.document_loaders import PyPDFLoader
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 # Add a title and description
-st.title("📚 Document Q&A Assistant")
+st.title("📚 Panaversity Q&A Assistant")
 st.write("Ask questions about the content of the document. Here are some example questions you can try:")
 st.markdown("- What is the main topic of this document?")
 st.markdown("- Can you summarize the key points?")
